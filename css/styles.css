@@ -1,12 +1,17 @@
+body {
+  background-color: pink;
+}
+
+
 .btn-primary {
-  background-color: red;
+  background-color: lightblue;
+  margin-left: 500px
 }
 
 
 
 .btn-group-lg>.btn, .btn-lg {
   border-radius: 0;
-  text-align: center;
 }
 .col-md-4 {
   height: 50px;
