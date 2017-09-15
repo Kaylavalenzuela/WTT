@@ -1,11 +1,21 @@
 body {
-  background-color: pink;
+  background-image: url("img/download.jpg");
 }
+ul {
+   margin-left: 1050px;
+ }
+
 
 
 .btn-primary {
   background-color: lightblue;
-  margin-left: 500px
+  text-align: center;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #ff95c7;
+    border-color: #727373;
 }
 
 
@@ -30,9 +40,13 @@ body {
 
 #carousel-id {
   height: 500px;
+  transition: 1s;
+  transition: ease-in-out;
 }
 
-
+.carousel-inner {
+  height: 500px;
+}
 
 .footer {
   background-color: lightgrey;
