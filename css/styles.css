@@ -31,3 +31,14 @@ body {
 #carousel-id {
   height: 500px;
 }
+
+
+
+.footer {
+  background-color: lightgrey;
+  height: 200px;
+}
+
+p {
+  text-align: center;
+}
